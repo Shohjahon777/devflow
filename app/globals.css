@@ -581,3 +581,8 @@ code {
     @apply bg-background text-foreground;
   }
 }
+
+@theme {
+  --background-image-auth-dark: url("/images/auth-dark.png");
+  --background-image-auth-light: url("/images/auth-light.png");
+}

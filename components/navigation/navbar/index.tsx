@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -24,7 +26,9 @@ const Navbar = () => {
 
       <p>Global Search</p>
 
-      <div className="flex-between gap-5"><Theme /></div>
+      <div className="flex-between gap-5">
+        <Theme />
+      </div>
     </nav>
   );
 };

@@ -31,7 +31,7 @@
     "**/node_modules": true,
     "**/dist": true,
     "**/build": true,
-    "**/public": true,
+    // "**/public": true,
     "**/.next": true,
     "**/.vscode": true
   }
